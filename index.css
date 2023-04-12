@@ -34,26 +34,42 @@
 
 
 
-
-
-
-
-
-
-
 /*CSS HOME4*/
 
+.banner_inicial{
+  filter: grayscale(100%);
+  width: 100%;
+}
+
+.container_home_4{
+  position: absolute;
+  width: 900px;
+  margin: 0 500px;
+  padding: 274px 0;
+  top: 0;
+}
+
+.container_home_4 .title{
+  font-size: 70px;
+  text-align: center;
+  color: var(--cor-branca);
+  font-family: var(--font-family-titulo-secao);
+}
 
 
+.container_home_4 .btn{
+  margin: 78px 0 0 300px;
+  width: 250px;
+  height: 72px;
+  border-radius: 40px;
+  border: 0px;
+  background-color: var(--cor-vermelha);
+  color: var(--cor-branca);
+  font-family: var(--font-family-paragrafo);
+  font-size: 23px;
+  cursor: pointer;
 
-
-
-
-
-
-
-
-
+}
 
 /*CSS HOME5*/
 
