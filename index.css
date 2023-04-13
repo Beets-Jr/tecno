@@ -26,20 +26,83 @@
 
 /*CSS HOME3*/
 
+.container-footer {
+    width: 100%;
+    padding: 100px;
+    background-color: var(--cor-branca);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+.footer-logo {
+    width: 20%;
+    height: 20%;
+}
 
+.footer-titulo {
+    color: var(--cor-preta);
+    font-family: var(--font-family-titulo-secao);
+    margin-bottom: 20px;
+}
 
+.footer-paragrafo {
+    color: var(--cor-preta);
+    font-family: var(--font-family-paragrafo);
+}
 
+.footer-localizacao {
+    margin-left: 100px;
+}
 
+.footer-contatos {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 
+.footer-whatsapp, .footer-instagram {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
 
+.footer-whatsapp {
+    margin-bottom: 20px;
+}
 
+.footer-icons {
+    width: 10%;
+    height: 10%;
+    margin-right: 20px;
+}
 
-
-
-
-
-
+@media only screen and (max-width: 800px){
+    .container-footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-logo {
+        width: 60%;
+        height: 60%;
+        padding-bottom: 50px;
+    }
+    .footer-localizacao {
+        margin-left: 0;
+    }
+    .footer-contatos {
+        width: 25vw;
+        padding-top: 25px;
+    }
+    .footer-icons {
+        width: 15%;
+        height: 15%;
+    }
+}
 
 /*CSS HOME4*/
 
