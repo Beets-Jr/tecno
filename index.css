@@ -41,24 +41,25 @@
   width: 100%;
 }
 
-.container_home_4{
-  position: absolute;
-  width: 900px;
-  margin: 0 500px;
-  padding: 274px 0;
-  top: 0;
-}
-
-.container_home_4 .title{
+.title{
   font-size: 70px;
+  font-weight: bold;
   text-align: center;
   color: var(--cor-branca);
   font-family: var(--font-family-titulo-secao);
 }
 
+.h4{
+  position: relative;
+  width: 900px;
+  margin: -1000px auto 0;
+  padding: 274px 0;
+  text-align: center;
 
-.container_home_4 .btn{
-  margin: 78px 0 0 300px;
+}
+
+ .h4 .btn{
+  margin-top: 78px;
   width: 250px;
   height: 72px;
   border-radius: 40px;
