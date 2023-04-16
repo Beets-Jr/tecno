@@ -56,71 +56,140 @@
 
 
 /*CSS HOME5*/
-.background {
-    height: 100vh;
-    background-color: var(--cor-preta);
+
+@media (max-width: 1200px){
+
+    .background {
+        height: 0px;
+        width: 0px;
+    }
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-img {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-img img {
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .container-textos {
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        text-align: center;
+        position: absolute;
+    }
+    
+    .titulo {
+        color: var(--cor-branca);
+        font-family: var(--font-family-titulo-secao);
+        font-weight: var(--font-weight-titulo-secao);
+        font-size: 40px;
+    }
+    
+    .historia-infos {
+        color: var(--cor-branca);
+        font-family: var(--font-family-paragrafo);
+        font-weight: var(--font-weight-paragrafo-regular);
+        font-size: 20px;
+    }
+    
+    .botao-historia {
+        background-color: var(--cor-laranja);
+        color: var(--cor-branca);
+        font-family: var(--font-family-titulo-secao);
+        font-weight: var(--font-weight-titulo-secao);
+        font-size: 20px;
+        border: none;
+        width: 200px;
+        height: 40px;
+        user-select: none;
+    }
+    
+    .botao-historia:hover {
+        cursor: pointer;
+    }
+
 }
 
-.container {
-    height: 100vh;
-    width: 100vw;
-    max-width: 100vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+@media (min-width: 1201px) {
+
+    .background {
+        height: 100vh;
+        background-color: var(--cor-preta);
+    }
+    
+    .container {
+        height: 100vh;
+        width: 100vw;
+        max-width: 100vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .container-img {
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+    }
+    
+    .container-img img {
+        height: 49.5vh;
+        object-fit: fill;
+    }
+    
+    .container-textos {
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        margin-left: 5vw;
+    }
+    
+    .titulo {
+        color: var(--cor-branca);
+        font-family: var(--font-family-titulo-secao);
+        font-weight: var(--font-weight-titulo-secao);
+        font-size: 50px;
+    }
+    
+    .historia-infos {
+        color: var(--cor-branca);
+        font-family: var(--font-family-paragrafo);
+        font-weight: var(--font-weight-paragrafo-regular);
+        font-size: 30px;
+    }
+    
+    .botao-historia {
+        background-color: var(--cor-laranja);
+        color: var(--cor-branca);
+        font-family: var(--font-family-titulo-secao);
+        font-weight: var(--font-weight-titulo-secao);
+        font-size: 30px;
+        border: none;
+        width: 250px;
+        height: 50px;
+        user-select: none;
+    }
+    
+    .botao-historia:hover {
+        cursor: pointer;
+    }
+
 }
-
-.container-img {
-    display: flex;
-    flex-direction: column;
-    gap: 2vh;
-}
-
-.container-img img {
-    width: 35vw;
-    height: 49vh;
-}
-
-.container-textos {
-    display: flex;
-    flex-direction: column;
-    gap: 5vh;
-    margin-left: 10vw;
-}
-
-.titulo {
-    color: var(--cor-branca);
-    font-family: var(--font-family-titulo-secao);
-    font-weight: var(--font-weight-titulo-secao);
-    font-size: 50px;
-}
-
-.historia-infos {
-    color: var(--cor-branca);
-    font-family: var(--font-family-paragrafo);
-    font-weight: var(--font-weight-paragrafo-regular);
-    font-size: 30px;
-}
-
-.botao-historia {
-    background-color: var(--cor-laranja);
-    color: var(--cor-branca);
-    font-family: var(--font-family-titulo-secao);
-    font-weight: var(--font-weight-titulo-secao);
-    font-size: 30px;
-    border: none;
-    width: 250px;
-    height: 50px;
-    user-select: none;
-}
-
-.botao-historia:hover {
-    cursor: pointer;
-}
-
-
-
 
 /*CSS HOME6*/
 
