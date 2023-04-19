@@ -37,7 +37,7 @@
 /*CSS HOME4*/
 
 .title{
-  font-size: 70px;
+  font-size: 80px;
   font-weight: var(--font-weight-titulo-secao);
   text-align: center;
   color: var(--cor-branca);
@@ -53,9 +53,9 @@
 
 .h4{
   position: relative;
-  width: 900px;
+  width: 1000px;
   margin: 0 auto;
-  padding: 15% 0;
+  padding: 20% 0;
   text-align: center;
 
 }
@@ -74,7 +74,7 @@
 
 }
 
-@media only screen and (min-width: 801px) and (max-width:1700px) {
+@media only screen and (min-width: 801px) and (max-width:1500px) {
 
   .title{
     font-size: 50px;
@@ -90,12 +90,13 @@
 }
 
 @media only screen and (max-width: 800px) {
+
   .title{
-    font-size: 30px;
+    font-size: 18px;
   }
   .h4{
     width: 400px;
-    padding: 5%;
+    padding: 24% 5% 0;
   }
   .h4 .btn{
     width: 125px;
