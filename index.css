@@ -35,6 +35,15 @@
 
 
 /*CSS HOME4*/
+
+.title{
+  font-size: 70px;
+  font-weight: var(--font-weight-titulo-secao);
+  text-align: center;
+  color: var(--cor-branca);
+  font-family: var(--font-family-titulo-secao);
+}
+
 .banner_inicial{
   filter: grayscale(100%);
   width: 100%;
@@ -73,14 +82,41 @@
 
 }
 
+@media only screen and (min-width: 801px) and (max-width:1700px) {
+
+  .title{
+    font-size: 50px;
+  }
+  .h4{
+    width: 750px;
+  }
+  .h4 .btn{
+    width: 200px;
+    height: 60px;
+    margin: 50px 0;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .title{
+    font-size: 30px;
+  }
+  .h4{
+    width: 400px;
+    padding: 5%;
+  }
+  .h4 .btn{
+    width: 125px;
+    height: 36px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+}
+
+
+
+
 /*CSS HOME5*/
-
-
-
-
-
-
-
 
 
 
@@ -90,23 +126,7 @@
 
 
 
-
-
-
-
-
-
-
-
 /*CSS HOME7*/
-
-
-
-
-
-
-
-
 
 
 
@@ -114,27 +134,5 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*CSS HOME9*/
+
