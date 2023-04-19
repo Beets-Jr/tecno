@@ -51,14 +51,6 @@
   top: 0;
 }
 
-.title{
-  font-size: 70px;
-  font-weight: var(--font-weight-titulo-secao);
-  text-align: center;
-  color: var(--cor-branca);
-  font-family: var(--font-family-titulo-secao);
-}
-
 .h4{
   position: relative;
   width: 900px;
