@@ -57,11 +57,12 @@
 
 /*CSS HOME5*/
 
-@media (max-width: 1024px){
+@media (max-width: 601px) {
 
     .background {
-        height: 0px;
-        width: 0px;
+        height: 100vh;
+        width: 100vw;
+        background-color: black;
     }
 
     .container {
@@ -81,12 +82,86 @@
 
     .container-img img {
         height: 50vh;
-        width: 100vw;
+        overflow-y: hidden;
     }
 
     .container-textos {
         height: 100vh;
         width: 100vw;
+        background-color:rgba(0,0,0,0.6);
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+    }
+    
+    .titulo {
+        color: var(--cor-branca);
+        font-family: var(--font-family-titulo-secao);
+        font-weight: var(--font-weight-titulo-secao);
+        font-size: 40px;
+    }
+    
+    .historia-infos {
+        color: var(--cor-branca);
+        font-family: var(--font-family-paragrafo);
+        font-weight: var(--font-weight-paragrafo-regular);
+        font-size: 20px;
+        max-width: 70vw;
+    }
+    
+    .botao-historia {
+        background-color: var(--cor-laranja);
+        color: var(--cor-branca);
+        font-family: var(--font-family-titulo-secao);
+        font-weight: var(--font-weight-titulo-secao);
+        font-size: 20px;
+        border: none;
+        width: 200px;
+        height: 40px;
+        user-select: none;
+    }
+    
+    .botao-historia:hover {
+        cursor: pointer;
+    }
+
+}
+
+@media (max-width: 1024px) and (min-width: 602px){
+
+    .background {
+        height: 100vh;
+        width: 100vw;
+        background-color: black;
+    }
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-img {
+        width: 602px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-img img {
+        height: 50vh;
+        width: 602px;
+    }
+
+    .container-textos {
+        height: 100vh;
+        width: 602px;
         background-color:rgba(0,0,0,0.6);
         display: flex;
         flex-direction: column;
