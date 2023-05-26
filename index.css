@@ -93,30 +93,151 @@
 
 
 /*CSS HOME8*/
+.itabilContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.itabilContainer img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray; 
+    width: 100vh;
+    max-height: 100%;
+}
+.itabilContainerTxt {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    margin: 7vh 5vw 5vh 2.5vw;
+}
+.itabilContainerTxt h1 {
+    color: var(--cor-preta);
+    font-family: var(--font-family-titulo-secao);
+    font-weight: var(--font-weight-titulo-secao);
+    font-size: 50px;
+}
+.itabilContainerTxt p {
+    color: var(--cor-preta);
+    font-family: var(--font-family-paragrafo);
+    font-weight: var(--font-weight-paragrafo-regular);
+    font-size: 20px;
+    max-width: 60vw;
+}
+.itabilBtn{
+    background-color: var(--cor-laranja);
+    color: var(--cor-branca);
+    font-family: var(--font-family-titulo-secao);
+    font-weight: var(--font-weight-titulo-secao);
+    font-size: 30px;
+    border: none;
+    width: 250px;
+    height: 50px;
+    user-select: none;
+}
+.itabilBtn:hover{
+    cursor: pointer;
+}
 
+@media (max-width: 900px) {
+    .itabilContainer{
+        align-items: center;
+        justify-content: center;
+    }
+    .itabilContainer img {
+        height: 100%;
+        width: 100%;
+    }
+    .itabilBackground{
+        max-width: 100%;
+        max-height: 100%;
+        filter: blur(1px);
+      }
+    .itabilContainerTxt {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+    }
+    .itabilContainerTxt h1{
+        color: var(--cor-branca);
+        font-family: var(--font-family-titulo-secao);
+        font-weight: var(--font-weight-titulo-secao);
+        font-size: 40px;
+    }
+    .itabilContainerTxt p{
+        color: var(--cor-branca);
+        font-family: var(--font-family-paragrafo);
+        font-weight: var(--font-weight-paragrafo-regular);
+        font-size: 18px;
+        max-width: 70vw;
+    }
+    .itabilBtn{
+        background-color: var(--cor-laranja);
+        color: var(--cor-branca);
+        font-family: var(--font-family-titulo-secao);
+        font-weight: var(--font-weight-titulo-secao);
+        font-size: 18px;
+        border: none;
+        width: 200px;
+        height: 40px;
+        user-select: none;
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 450px) {
+    .itabilContainer{
+        align-items: center;
+        justify-content: center;
+    }
+    .itabilContainer img {
+        height: 100%;
+        width: 100%;
+    }
+    .itabilBackground{
+        max-width: 100%;
+        max-height: 100%;
+        filter: blur(1px);
+      }
+    .itabilContainerTxt {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+    }
+    .itabilContainerTxt h1{
+        color: var(--cor-branca);
+        font-family: var(--font-family-titulo-secao);
+        font-weight: var(--font-weight-titulo-secao);
+        font-size: 30px;
+    }
+    .itabilContainerTxt p{
+        color: var(--cor-branca);
+        font-family: var(--font-family-paragrafo);
+        font-weight: var(--font-weight-paragrafo-regular);
+        font-size: 14px;
+        max-width: 70vw;
+    }
+    .itabilBtn{
+        background-color: var(--cor-laranja);
+        color: var(--cor-branca);
+        font-family: var(--font-family-titulo-secao);
+        font-weight: var(--font-weight-titulo-secao);
+        font-size: 14px;
+        border: none;
+        width: 200px;
+        height: 40px;
+        user-select: none;
+    }
+}
 /*CSS HOME9*/
