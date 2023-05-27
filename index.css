@@ -105,6 +105,8 @@
     }
 }
 
+
+
 /*CSS HOME2*/
 .navBar{
     box-sizing: border-box;
@@ -212,6 +214,8 @@
         top:-7px;
     }
   }
+
+
 
 /*CSS HOME3*/
 .container-footer {
@@ -369,6 +373,8 @@
     }
 }
 
+
+
 /*CSS HOME4*/
 .title{
   font-size: 80px;
@@ -443,7 +449,6 @@
 
 
 /*CSS HOME5*/
-
 @media (max-width: 351px) {
 
     .background {
@@ -657,6 +662,8 @@
 
 }
 
+
+
 /*CSS HOME6*/
 .container-qualidades{
     background-color: var(--cor-vermelha);
@@ -720,6 +727,7 @@
         margin-bottom: 50px;
     }
 }
+
 
 
 /*CSS HOME7*/
@@ -874,6 +882,8 @@
         user-select: none;
     }
 }
+
+
 
 /*CSS HOME9*/
 
