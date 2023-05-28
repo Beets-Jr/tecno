@@ -70,7 +70,7 @@ cursor: pointer;
 
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
   .title{
     font-size: 1.875rem;
   }
@@ -78,20 +78,20 @@ cursor: pointer;
     top: 30px;
   }
   .h9 .texto{
-    width: 400px;
+    width: 350px;
     top: 30px;
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
   .h9 .btn{
     margin: 15px 0;
     width: 200px;
-    height: 50px;
-    font-size: 1.25rem;
+    height: 40px;
+    font-size: 1.125rem;
   }
 
 }
 
-@media only screen and (min-width: 801px)  and (max-width: 1300px){
+@media only screen and (min-width: 701px)  and (max-width: 1300px){
   .title{
     font-size: 2.8125rem;
   }
