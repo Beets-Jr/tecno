@@ -663,7 +663,6 @@
 }
 
 
-
 /*CSS HOME6*/
 .container-qualidades{
     background-color: var(--cor-vermelha);
@@ -727,7 +726,6 @@
         margin-bottom: 50px;
     }
 }
-
 
 
 /*CSS HOME7*/
@@ -1034,3 +1032,82 @@
 
 /*CSS HOME9*/
 
+.h9{
+  display: flex;
+  justify-content: center;
+}
+
+.h9 .imagem{
+position: absolute;
+width: 100%;
+filter: grayscale(100%); 
+}
+
+.h9 .conteudo{
+position: relative;
+text-align: center;
+color: var(--cor-branca);
+top: 130px;
+}
+
+.h9 .texto{
+  width: 1000px;
+  font-family: var(--font-family-paragrafo);
+  font-size: 2.25rem;
+
+}
+.h9 .btn{
+margin: 60px 0;
+width: 700px;
+height: 110px;
+font-size: 3.125rem;
+font-family: var(--font-family-titulo-secao);
+color: var(--cor-branca);
+background-color: var(--cor-laranja);
+border: 0;
+cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+  .title{
+    font-size: 1.875rem;
+  }
+  .h9 .conteudo{
+    top: 30px;
+  }
+  .h9 .texto{
+    width: 350px;
+    top: 30px;
+    font-size: 1rem;
+  }
+  .h9 .btn{
+    margin: 15px 0;
+    width: 200px;
+    height: 40px;
+    font-size: 1.125rem;
+  }
+
+}
+
+@media only screen and (min-width: 701px)  and (max-width: 1300px){
+  .title{
+    font-size: 2.8125rem;
+  }
+  .h9 .conteudo{
+    top: 60px;
+  }
+
+  .h9 .texto{
+    width: 600px;
+    font-size: 1.75rem;
+  }
+  .h9 .btn{
+    width: 600px;
+    height: 80px;
+    margin: 30px 0;
+    font-size: 2.1875rem;
+  }
+
+}
