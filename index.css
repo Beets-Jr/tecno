@@ -5,27 +5,27 @@
     left: 50%;
     transform: translate(-50%);
     justify-content: space-around;
-    padding: 10px 0 10px;
+    padding: 0.6em 0 0.6em;
     position: absolute;
 }
 
 .infos-esq, .infos-dir {
     display: flex;
-    width: 75px;
+    width: 4.69em;
     justify-content: space-around;
 }
 
 .infos-centro {
     display: flex;
     width: 50%x;
-    border-radius: 50px;
-    border: 2px solid var(--cor-branca);
+    border-radius: 3.125em;
+    border: 0.125em solid var(--cor-branca);
 }
 
 .instagram-btn, .whatsapp-btn, .profile-btn, .carrinho-btn, .pesquisa-btn {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 1.25em;
+    height: 1.25em;
     background-size: cover;
 }
 
@@ -42,7 +42,7 @@
     width: 84%;
     margin-left: 2.5%;
     border: none;
-    border-radius: 50px;
+    border-radius: 3.125em;
     color: var(--cor-branca);
     outline: none;
 }
@@ -52,7 +52,7 @@
     filter: invert(100%);
     border: none;
     margin-left: 1%;
-    border-radius: 50px;
+    border-radius: 3.125em;
     outline: none;
 }
 
@@ -65,30 +65,30 @@
 }
 
 .barra {
-    width: 2px;
-    height: 20px;
+    width: 0.125em;
+    height: 1.25em;
     background-color: var(--cor-branca);
     margin: 0 1%;
 }
 
 @media (max-width: 480px) {
     .infos-superiores {
-        padding: 5px 0 5px;
+        padding: 0.31em 0 0.31em;
     }
 
     .infos-esq, .infos-dir, .infos-centro {
-        width: 60px;
+        width: 3.75em;
     }
 
     .infos-centro {
         width: 30%;
-        border: 1.5px solid var(--cor-branca);
-        height: 17px;
+        border: 0.09em solid var(--cor-branca);
+        height: 1em;
     }
 
     .instagram-btn, .whatsapp-btn, .profile-btn, .carrinho-btn, .pesquisa-btn {
-        width: 15px;
-        height: 15px;
+        width: 1em;
+        height: 1em;
     }
 
     .pesquisa {
@@ -97,8 +97,8 @@
     }
 
     .barra {
-        width: 1.5px;
-        height: 15px;
+        width: 0.09em;
+        height: 1em;
         background-color: var(--cor-branca);
         margin: 0 1%;
     }
