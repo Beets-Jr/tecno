@@ -1,6 +1,5 @@
 /*CSS HOME8*/
 .itabilContainer {
-  width: 100vw;
   height: 100vh;
   display: flex;
 }
@@ -49,6 +48,19 @@
 
 .itabilBtn:hover {
   cursor: pointer;
+}
+
+.itabilContainer .container-textos .historia-infos {
+  color: black;
+}
+
+.itabilContainer .container-textos .titulo {
+  color: black;
+}
+
+.itabilContainer .container-textos {
+  margin: 5px;
+  justify-content: center;
 }
 
 @media (max-width: 900px) {
