@@ -40,8 +40,7 @@
 
   .titulo {
     color: var(--cor-branca);
-    font-family: var(--font-family-titulo-secao);
-    font-weight: var(--font-weight-titulo-secao);
+    font-family: var(--font-family-paragrafo);
     font-size: 40px;
   }
 
@@ -144,14 +143,11 @@
 
 }
 
-.background {
-  background-color: var(--cor-preta);
-}
-
 .container {
-  height: 100vh;
+  height: 110vh;
   display: flex;
   align-items: center;
+  background-color: var(--cor-preta);
 }
 
 .container-img {
@@ -161,43 +157,36 @@
 }
 
 .container-img img {
-  width: 650px;
-  margin: 10px;
+  width: 35vw;
+  margin: 5px;
 }
 
 .container-textos {
   display: flex;
   flex-direction: column;
   margin-left: 5vw;
-  width: 900px;
+  width: 55vw;
 }
 
 .titulo {
   color: var(--cor-branca);
-  font-family: var(--font-family-titulo-secao);
   font-weight: var(--font-weight-titulo-secao);
-  font-size: 90px;
+  font-size: 5.4em;
   text-transform: uppercase;
 }
 
 .historia-infos {
   color: var(--cor-branca);
-  font-family: var(--font-family-paragrafo);
-  font-weight: var(--font-weight-paragrafo-regular);
-  font-size: 40px;
-
+  font-size: 2.5rem;
 }
 
 .botao-historia {
-  background-color: var(--cor-laranja);
+  background-color: var(--cor-vermelha);
   color: var(--cor-branca);
-  font-size: 40px;
+  font-family: var(--font-family-paragrafo);
+  font-size: 2.5rem;
   border: none;
-  width: 500px;
-  height: 100px;
-  margin-top: 50px;
-}
-
-.botao-historia:hover {
-  cursor: pointer;
+  width: 50%;
+  height: 6rem;
+  margin-top: 4vh;
 }

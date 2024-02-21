@@ -15,17 +15,17 @@
 
 .card-servicos {
   background-color: var(--cor-vermelha);
-  width: 500px;
-  height: 400px;
+  width: 26vw;
+  height: 45vh;
   display: flex;
   flex-direction: column;
-  margin: 30px;
+  margin: 3vh;
   align-items: center;
   justify-content: center;
 }
 
 .card-servicos .img {
-  height: 200px;
+  height: 20vh;
   display: flex;
   align-items: center;
 }
@@ -39,19 +39,18 @@
 
 .title-servicos {
   color: var(--cor-branca);
-  font-family: var(--font-family-titulo-secao);
-  font-weight: var(--font-weight-titulo-secao);
-  font-size: 100px;
-  margin: 100px 0 70px 0;
+  font-family: var(--font-family-paragrafo);
+  font-weight: var(--font-weight-paragrafo-bold);
+  font-size: 5.5rem;
+  margin: 10vh 0 7vh 0;
   text-align: center;
 }
 
 .card-title {
   color: var(--cor-branca);
-  font-family: var(--font-family-paragrafo);
-  font-weight: var(--font-weight-paragrafo-bold);
+  font-family: var(--font-family-titulo-secao);
   font-size: 2rem;
-  padding-top: 20px;
+  padding-top: 2vh;
   text-align: center;
 }
 
@@ -59,7 +58,8 @@
   color: var(--cor-branca);
   font-family: var(--font-family-paragrafo);
   font-weight: var(--font-weight-paragrafo-regular);
-  font-size: 16px;
+  font-size: 1.5rem;
+  margin-top: 1vh;
 }
 
 

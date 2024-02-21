@@ -12,55 +12,39 @@
   max-height: 100%;
 }
 
-.itabilContainerTxt {
+
+.itabil-conteudo {
   display: flex;
   flex-direction: column;
-  gap: 5vh;
-  margin: 7vh 5vw 5vh 2.5vw;
-}
-
-.itabilContainerTxt h1 {
-  color: var(--cor-preta);
-  font-family: var(--font-family-titulo-secao);
-  font-weight: var(--font-weight-titulo-secao);
-  font-size: 50px;
-}
-
-.itabilContainerTxt p {
-  color: var(--cor-preta);
-  font-family: var(--font-family-paragrafo);
-  font-weight: var(--font-weight-paragrafo-regular);
-  font-size: 20px;
-  max-width: 60vw;
-}
-
-.itabilBtn {
-  background-color: var(--cor-laranja);
-  color: var(--cor-branca);
-  font-family: var(--font-family-titulo-secao);
-  font-weight: var(--font-weight-titulo-secao);
-  font-size: 30px;
-  border: none;
-  width: 250px;
-  height: 50px;
-  user-select: none;
-}
-
-.itabilBtn:hover {
-  cursor: pointer;
-}
-
-.itabilContainer .container-textos .historia-infos {
-  color: black;
-}
-
-.itabilContainer .container-textos .titulo {
-  color: black;
-}
-
-.itabilContainer .container-textos {
-  margin: 5px;
   justify-content: center;
+  gap: 5vh;
+  margin: 7vh 3vw 5vh 0vw;
+  color: var(--cor-preta);
+}
+
+.itabil-txt {
+  font-family: var(--font-family-paragrafo);
+  font-size: 1.8rem;
+  text-align: end;
+}
+
+.itabil-conteudo h1 {
+  font-family: var(--font-family-titulo-secao);
+  font-size: 5rem;
+  font-weight: var(--font-weight-titulo-secao);
+  color: var(--cor-preta);
+  margin-left: 3vw;
+}
+
+.botao-itabil {
+  width: 55%;
+  margin-top: 4vh;
+  height: 80px;
+  font-size: 2rem;
+  color: var(--cor-branca);
+  background-color: var(--cor-vermelha);
+  border: 0;
+  cursor: pointer;
 }
 
 @media (max-width: 900px) {

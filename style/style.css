@@ -9,34 +9,41 @@ Version: 1.0
 
 /*Reset*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  ol,
-  ul {
-    list-style: none;
-  }
-  
-  a {
-    text-decoration: none;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family-paragrafo);
+  font-weight: var(--font-weight-paragrafo-regular);
+  color: var(--cor-branca);
+  overflow-x: hidden;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
 
 /*Variavel*/
-:root{
-    /*===========FONTE=============*/
-    --font-family-titulo-secao: 'Libre Franklin', sans-serif; 
-    --font-family-paragrafo: 'Open Sans', sans-serif;
-    --font-family-menu: 'Alata', sans-serif;
-    --font-weight-titulo-secao: 900;
-    --font-weight-paragrafo-regular: 400;
-    --font-weight-paragrafo-bold: 700;
-    --font-weight-menu-regular: 400;
+:root {
+  /*===========FONTE=============*/
+  --font-family-titulo-secao: 'Libre Franklin', sans-serif;
+  --font-family-paragrafo: 'Open Sans', sans-serif;
+  --font-family-menu: 'Alata', sans-serif;
+  --font-weight-titulo-secao: 900;
+  --font-weight-paragrafo-regular: 400;
+  --font-weight-paragrafo-bold: 700;
+  --font-weight-menu-regular: 400;
 
-    /*===========COR===============*/
-    --cor-preta: #000000;
-    --cor-vermelha: #C3212A;
-    --cor-branca: #FFFFFF;
-    --cor-laranja: #FA823F;
+  /*===========COR===============*/
+  --cor-preta: #000000;
+  --cor-vermelha: #C3212A;
+  --cor-branca: #FFFFFF;
+  --cor-laranja: #FA823F;
 }
