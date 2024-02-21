@@ -1,0 +1,171 @@
+/*CSS HOME4*/
+.title {
+    font-size: 80px;
+    font-weight: var(--font-weight-titulo-secao);
+    text-align: center;
+    color: var(--cor-branca);
+    font-family: var(--font-family-titulo-secao);
+}
+
+.banner_inicial {
+    filter: grayscale(100%);
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.h4 {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20% 0;
+    text-align: center;
+
+}
+
+.h4 .btn {
+    margin-top: 78px;
+    width: 250px;
+    height: 72px;
+    border-radius: 40px;
+    border: 0px;
+    background-color: var(--cor-vermelha);
+    color: var(--cor-branca);
+    font-family: var(--font-family-paragrafo);
+    font-size: 23px;
+    cursor: pointer;
+
+}
+
+@media only screen and (min-width: 801px) and (max-width:1500px) {
+
+    .title {
+        font-size: 50px;
+    }
+
+    .h4 {
+        width: 750px;
+    }
+
+    .h4 .btn {
+        width: 200px;
+        height: 60px;
+        margin: 50px 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .title {
+        font-size: 18px;
+    }
+
+    .h4 {
+        width: 400px;
+        padding: 24% 5% 0;
+    }
+
+    .h4 .btn {
+        width: 125px;
+        height: 36px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+/*CSS HOME9*/
+
+.h9 {
+    display: flex;
+    justify-content: center;
+}
+
+.h9 .imagem {
+    position: absolute;
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.h9 .conteudo {
+    position: relative;
+    text-align: center;
+    color: var(--cor-branca);
+    top: 130px;
+}
+
+.h9 .texto {
+    width: 1000px;
+    font-family: var(--font-family-paragrafo);
+    font-size: 2.25rem;
+
+}
+
+.h9 .btn {
+    margin: 60px 0;
+    width: 700px;
+    height: 110px;
+    font-size: 3.125rem;
+    font-family: var(--font-family-titulo-secao);
+    color: var(--cor-branca);
+    background-color: var(--cor-laranja);
+    border: 0;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .title {
+        font-size: 1.875rem;
+    }
+
+    .h9 .conteudo {
+        top: 30px;
+    }
+
+    .h9 .texto {
+        width: 350px;
+        top: 30px;
+        font-size: 1rem;
+    }
+
+    .h9 .btn {
+        margin: 15px 0;
+        width: 200px;
+        height: 40px;
+        font-size: 1.125rem;
+    }
+
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1300px) {
+    .title {
+        font-size: 2.8125rem;
+    }
+
+    .h9 .conteudo {
+        top: 60px;
+    }
+
+    .h9 .texto {
+        width: 600px;
+        font-size: 1.75rem;
+    }
+
+    .h9 .btn {
+        width: 600px;
+        height: 80px;
+        margin: 30px 0;
+        font-size: 2.1875rem;
+    }
+
+}
+
+/*CSS HOME10*/
