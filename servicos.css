@@ -1,0 +1,63 @@
+@media (min-width: 1023px) {
+
+    .SERVICOS1 {
+        height: 70vh;
+        width: 100vw;
+        background-image: url(img/home/01.png);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .SERVICOS2 {
+        height: 100vh;
+        width: 100vw;
+        background-image: url(img/home/05.png);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .SERVICOS3 {
+        height: 100vh;
+        width: 100vw;
+        background-image: url(img/home/04.png);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .title-servicos {
+        color: var(--cor-branca);
+        font-family: var(--font-family-titulo-secao);
+        font-weight: var(--font-weight-titulo-secao);
+        font-size: 40px;
+        background-color: var(--cor-vermelha);
+    }
+
+    .left-card, .right-card {
+        background-color: var(--cor-vermelha);
+        height: 20vh;
+        width: 40vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right-card {
+        margin-left: 60vw;
+    }
+
+    .title-card {
+        background-color: var(--cor-vermelha);
+    }
+
+    .card-text {
+        color: var(--cor-branca);
+        font-family: var(--font-family-paragrafo);
+        font-weight: var(--font-weight-paragrafo-bold);
+        text-align: center;
+        font-size: 25px;
+    }
+
+
+}
