@@ -133,7 +133,7 @@ header {
     margin-top: 8px;
     height: 60px;
     --cor-vermelha: 195,33, 42;
-    background-color: var(--cor-vermelha);
+    background-color: var(--cor-vermelha-escura);
     border-radius: 5px;
     border-bottom: 3px inset rgba(var(--cor-vermelha), 0.8);
     border-right: 3px inset rgba(var(--cor-vermelha), 0.8);
