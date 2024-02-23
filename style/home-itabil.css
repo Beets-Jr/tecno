@@ -47,7 +47,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 1300px) and (min-width: 800px) {
+@media (max-width: 1400px) and (min-width: 800px) {
 
   .itabilContainer {
     height: 100vh;

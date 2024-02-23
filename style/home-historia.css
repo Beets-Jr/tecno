@@ -8,13 +8,13 @@
 .container-img {
   display: flex;
   flex-direction: column;
-  margin-left: 10vw;
+  margin-left: 4vw;
 }
 
 .container-img img {
   width: 700px;
-  margin: 5px;
-  height: 400px;
+  margin: 3px;
+  height: 50vh;
 }
 
 .container-textos {
@@ -47,7 +47,7 @@
   margin-top: 40px;
 }
 
-@media (max-width: 1300px) and (min-width: 1000px) {
+@media (max-width: 1400px) and (min-width: 1000px) {
   .container {
     height: 100vh;
   }

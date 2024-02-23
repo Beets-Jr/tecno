@@ -4,7 +4,7 @@
 }
 
 .qualidades-titulo {
-  width: 40vw;
+  width: 60%;
   margin: 0 auto;
   font-family: var(--font-family-titulo-secao);
   font-weight: var(--font-weight-titulo-secao);
@@ -41,14 +41,14 @@
 
 
 
-@media (max-width: 1300px) and (min-width: 800px) {
+@media (max-width: 1400px) and (min-width: 800px) {
   .container-qualidades {
-    height: 170vh;
+    height: 150vh;
   }
 
   .qualidades-titulo {
-    font-size: 4rem;
-    width: 60vw;
+    font-size: 3.5rem;
+    width: 75vw;
   }
 
   .qualidades-itens {
@@ -62,6 +62,7 @@
 
   .qualidades-txt {
     width: 60vw;
+    font-size: 2rem;
   }
 }
 

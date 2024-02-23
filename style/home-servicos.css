@@ -61,7 +61,7 @@
   margin-top: 1vh;
 }
 
-@media (max-width: 1300px) and (min-width: 800px) {
+@media (max-width: 1400px) and (min-width: 800px) {
   .card-servicos {
     width: 40vw;
     height: 45vh;
