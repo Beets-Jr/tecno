@@ -1,148 +1,3 @@
-/*CSS HOME5*/
-@media (max-width: 351px) {
-
-  .background {
-    height: 100vh;
-    width: 100vw;
-    background-color: black;
-  }
-
-  .container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .container-img {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .container-img img {
-    width: 351px;
-  }
-
-  .container-textos {
-    height: 100vh;
-    width: 100vw;
-    background-color: rgba(0, 0, 0, 0.6);
-    display: flex;
-    flex-direction: column;
-    gap: 5vh;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: absolute;
-  }
-
-  .titulo {
-    color: var(--cor-branca);
-    font-family: var(--font-family-paragrafo);
-    font-size: 40px;
-  }
-
-  .historia-infos {
-    color: var(--cor-branca);
-    font-family: var(--font-family-paragrafo);
-    font-weight: var(--font-weight-paragrafo-regular);
-    font-size: 20px;
-    max-width: 70vw;
-  }
-
-  .botao-historia {
-    background-color: var(--cor-laranja);
-    color: var(--cor-branca);
-    font-family: var(--font-family-titulo-secao);
-    font-weight: var(--font-weight-titulo-secao);
-    font-size: 20px;
-    border: none;
-    width: 200px;
-    height: 40px;
-    user-select: none;
-  }
-
-  .botao-historia:hover {
-    cursor: pointer;
-  }
-
-}
-
-@media (max-width: 1023px) and (min-width: 352px) {
-
-  .background {
-    height: 100vh;
-    width: 100vw;
-    background-color: black;
-  }
-
-  .container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .container-img {
-    width: 352px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .container-img img {
-    width: 352px;
-  }
-
-  .container-textos {
-    height: 100vh;
-    width: 352px;
-    background-color: rgba(0, 0, 0, 0.6);
-    display: flex;
-    flex-direction: column;
-    gap: 5vh;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: absolute;
-  }
-
-  .titulo {
-    color: var(--cor-branca);
-    font-family: var(--font-family-titulo-secao);
-    font-weight: var(--font-weight-titulo-secao);
-    font-size: 40px;
-  }
-
-  .historia-infos {
-    color: var(--cor-branca);
-    font-family: var(--font-family-paragrafo);
-    font-weight: var(--font-weight-paragrafo-regular);
-    font-size: 20px;
-    max-width: 70vw;
-  }
-
-  .botao-historia {
-    background-color: var(--cor-laranja);
-    color: var(--cor-branca);
-    font-family: var(--font-family-titulo-secao);
-    font-weight: var(--font-weight-titulo-secao);
-    font-size: 20px;
-    border: none;
-    width: 200px;
-    height: 40px;
-    user-select: none;
-  }
-
-  .botao-historia:hover {
-    cursor: pointer;
-  }
-
-}
-
 .container {
   height: 110vh;
   display: flex;
@@ -153,12 +8,13 @@
 .container-img {
   display: flex;
   flex-direction: column;
-  margin-left: 10vw;
+  margin-left: 4vw;
 }
 
 .container-img img {
-  width: 35vw;
-  margin: 5px;
+  width: 700px;
+  margin: 3px;
+  height: 50vh;
 }
 
 .container-textos {
@@ -187,6 +43,78 @@
   font-size: 2.5rem;
   border: none;
   width: 50%;
-  height: 6rem;
-  margin-top: 4vh;
+  height: 80px;
+  margin-top: 40px;
+}
+
+@media (max-width: 1400px) and (min-width: 1000px) {
+  .container {
+    height: 100vh;
+  }
+
+  .container-img img {
+    width: 500px;
+    height: 300px;
+  }
+
+  .container-textos {
+    width: 50vw;
+  }
+
+  .titulo {
+    font-size: 4rem;
+  }
+
+  .historia-infos {
+    font-size: 1.8rem;
+  }
+
+  .botao-historia {
+    font-size: 1.6rem;
+    height: 50px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+
+  }
+
+  .container-img {
+    display: none;
+  }
+
+  .container-textos {
+    margin-left: 0;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .titulo {
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .historia-infos {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .botao-historia {
+    font-size: 1.6rem;
+    height: 50px;
+    width: 200px;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+
 }

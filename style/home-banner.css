@@ -1,5 +1,5 @@
 #home-page {
-  background: url(../img/home/01.png);
+  background: url(../img/home/home_banner.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -28,9 +28,40 @@
   font-family: var(--font-family-paragrafo);
   font-size: 2rem;
   border: none;
-  width: 130%;
   height: 8vh;
+  width: 300px;
   user-select: none;
   margin: 10vh 0;
   border-radius: 50px;
+}
+
+@media (max-width: 1400px) and (min-width: 800px) {
+  #home-page .home-title {
+    font-size: 4.2rem;
+  }
+
+  #home-page button {
+    font-size: 1.8rem;
+    height: 7vh;
+  }
+
+}
+
+@media (max-width: 800px) {
+  #home-page {
+    height: 90vh;
+  }
+
+  #home-page .home-title {
+    font-size: 2.5rem;
+    width: 80%;
+  }
+
+  #home-page button {
+    font-size: 1.4rem;
+    text-align: center;
+    height: 6vh;
+    width: 200px;
+  }
+
 }
