@@ -25,52 +25,52 @@
 
 </head>
 
-<body>
-    <header>
-        <!--Início HOME1: Infos-->
-        <div class="infos-superiores">
-            <div class="infos-esq">
-                <a target="_blank" href="https://www.whatsapp.com/" class="whatsapp-btn"></a>
-                <div class="barra"></div>
-                <a target="_blank" href="https://www.instagram.com" class="instagram-btn"></a>
-            </div>
-            <form class="infos-centro">
-                <input type="text" class="pesquisa">
-                <button type="submit" class="pesquisa-btn"></button>
-            </form>
-            <div class="infos-dir">
-                <a target="_blank" href="#" class="profile-btn"></a>
-                <div class="barra"></div>
-                <a target="_blank" href="#" class="carrinho-btn"></a>
-            </div>
+<header>
+    <!--Início HOME1: Infos-->
+    <div class="infos-superiores">
+        <div class="infos-esq">
+            <a target="_blank" href="https://www.whatsapp.com/" class="whatsapp-btn"></a>
+            <div class="barra"></div>
+            <a target="_blank" href="https://www.instagram.com" class="instagram-btn"></a>
         </div>
-        <!--Fim HOME1: Infos-->
-    
-    
-        <!--Início HOME2: Nav bar-->
-        <div class="navBar">
-            <div class="navBarLogo">
-                <img src="./img/home/Icones/logo_menu.png" alt="Logo Tecno Diesel">
-            </div>
-    
-            <nav id="navBarOp">
-                <button id="navBtnMob" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
-                    <span id="navBarHamburger"></span>
-                </button>
-                <ul class="navBarMenu">
-                    <li><a class="navBarHome" href="">HOME</a></li>
-                    <li><a class="navBarProdutos" href="https://www.google.com.br/">PRODUTOS</a></li>
-                    <li><a class="navBarServicos" href="https://www.google.com.br/">SERVIÇOS</a></li>
-                    <li><a class="navBarItabil" href="https://www.google.com.br/">ITABIL</a></li>
-                    <li><a class="navBarLocalizacao" href="https://www.google.com.br/">LOCALIZAÇÃO</a></li>
-                    <li><a class="navBarContato" href="https://www.google.com.br/">CONTATO</a></li>
-                </ul>
-            </nav>
+        <form class="infos-centro">
+            <input type="text" class="pesquisa">
+            <button type="submit" class="pesquisa-btn"></button>
+        </form>
+        <div class="infos-dir">
+            <a target="_blank" href="#" class="profile-btn"></a>
+            <div class="barra"></div>
+            <a target="_blank" href="#" class="carrinho-btn"></a>
         </div>
-        <script src="./script.js"></script>
-    <!--Fim HOME2: Nav bar-->
-    </header>
+    </div>
+    <!--Fim HOME1: Infos-->
 
+
+    <!--Início HOME2: Nav bar-->
+    <div class="navBar">
+        <div class="navBarLogo">
+            <img src="./img/home/Icones/logo_menu.png" alt="Logo Tecno Diesel">
+        </div>
+
+        <nav id="navBarOp">
+            <button id="navBtnMob" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                <span id="navBarHamburger"></span>
+            </button>
+            <ul class="navBarMenu">
+                <li><a class="navBarHome" href="">HOME</a></li>
+                <li><a class="navBarProdutos" href="https://www.google.com.br/">PRODUTOS</a></li>
+                <li><a class="navBarServicos" href="https://www.google.com.br/">SERVIÇOS</a></li>
+                <li><a class="navBarItabil" href="https://www.google.com.br/">ITABIL</a></li>
+                <li><a class="navBarLocalizacao" href="https://www.google.com.br/">LOCALIZAÇÃO</a></li>
+                <li><a class="navBarContato" href="https://www.google.com.br/">CONTATO</a></li>
+            </ul>
+        </nav>
+    </div>
+    <script src="./script.js"></script>
+<!--Fim HOME2: Nav bar-->
+</header>
+
+<body>
     <!-- Home -->
     <div id="home-page">
         <p class="home-title">
@@ -238,6 +238,45 @@
         </div>
         <!--Fim HOME3: Footer-->
     </footer>
+
+    <!-- Seção do script JavaScript -->
+    <script>
+        window.addEventListener('scroll', function() {
+            var scrollTop = window.scrollY;
+
+            // Obter a altura da janela do navegador
+            var windowHeight = window.innerHeight;
+
+            // Obter a posição das seções
+            var homePosition = document.getElementById('home-page').offsetTop;
+            var servicosPosition = document.querySelector('.background-servicos-1').offsetTop;
+            var itabilPosition = document.querySelector('.itabilContainer').offsetTop;
+
+            // Verificar qual seção está mais visível na janela
+            if (scrollTop >= homePosition && scrollTop < servicosPosition) {
+                // Se a seção "HOME" estiver visível
+                marcarAtivo('navBarHome');
+            } else if (scrollTop >= servicosPosition && scrollTop < itabilPosition) {
+                // Se a seção "SERVIÇOS" estiver visível
+                marcarAtivo('navBarServicos');
+            } else if (scrollTop >= itabilPosition) {
+                // Se a seção "ITABIL" estiver visível
+                marcarAtivo('navBarItabil');
+            }
+        });
+
+        // Função para marcar o item de navegação como ativo
+        function marcarAtivo(id) {
+            // Remover a classe 'ativo' de todos os itens de navegação
+            var itensNav = document.querySelectorAll('.navBarMenu li a');
+            itensNav.forEach(function(item) {
+                item.classList.remove('ativo');
+            });
+
+            // Adicionar a classe 'ativo' ao item de navegação correspondente
+            document.querySelector('.' + id).classList.add('ativo');
+        }
+    </script>
 
 </body>
 
