@@ -5,8 +5,10 @@
     align-items: center;
     width: 100vw;
     height: 99vh;
+    background-color: var(--cor-preta);
 }
-.ContatoImg{
+
+.ContatoImg {
     width: 50%;
     height: 100%;
 }
@@ -15,7 +17,7 @@
     width: 100%;
     height: 100%;
 }
-  
+
 .ContatoText {
     color: var(--cor-branca);
     font-family: var(--font-family-paragrafo);
@@ -28,7 +30,7 @@
     font-size: 2rem;
     font-weight: var(--font-weight-paragrafo-regular);
 }
-  
+
 .ContatoText h1 {
     font-family: var(--font-family-titulo-secao);
     font-size: 5rem;
@@ -37,18 +39,21 @@
     margin-bottom: 30px;
 }
 
-@media (max-width: 1100px) and (min-width: 801px){
+@media (max-width: 1100px) and (min-width: 801px) {
     .ContatoImg {
         width: 100%;
         height: 100%;
     }
+
     .ContatoText {
         width: 100%;
         height: 100%;
     }
+
     .ContatoText h1 {
         font-size: 3rem;
     }
+
     .ContatoText p {
         font-size: 1.5rem;
     }
@@ -58,18 +63,188 @@
     .ContatoContainer {
         flex-direction: column;
     }
+
     .ContatoImg {
         display: none;
     }
+
     .ContatoText {
         width: 100%;
         height: 100%;
     }
+
     .ContatoText h1 {
         font-size: 2.5rem;
     }
+
     .ContatoText p {
         font-size: 1rem;
         text-align: center;
+    }
+}
+
+/*CSS HOME3*/
+.container-footer {
+    width: 100%;
+    padding: 10px 30px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.footer-logo {
+    width: 20%;
+    height: 15%;
+    margin-left: 20px;
+}
+
+.popup-loc {
+    width: 33%;
+    padding-left: 30px;
+}
+
+.map {
+    width: 500px;
+    height: 200px;
+}
+
+.footer-titulo {
+    color: var(--cor-preta);
+    font-family: var(--font-family-titulo-secao);
+    font-size: 1.5rem;
+}
+
+.footer-paragrafo {
+    color: var(--cor-preta);
+    font-family: var(--font-family-paragrafo);
+    font-size: 1.2rem;
+}
+
+.footer-localizacao {
+    width: 30%;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-contatos {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer-whatsapp,
+.footer-instagram {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer-whatsapp {
+    margin-bottom: 20px;
+}
+
+.footer-icons {
+    width: 10%;
+    height: 10%;
+    margin-right: 20px;
+}
+
+
+@media (max-width: 1400px) and (min-width: 800px) {
+
+    .container-footer {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .popup-loc {
+        display: none;
+    }
+
+    .footer-logo {
+        width: 30%;
+        margin-left: 0;
+    }
+
+    .footer-localizacao {
+        width: 30%;
+        padding-left: auto;
+        min-width: 300px;
+    }
+
+    .footer-paragrafo {
+        font-size: 1.2rem;
+    }
+
+    .footer-titulo {
+        font-size: 1.2rem;
+        padding-bottom: 15px;
+        text-align: start;
+    }
+
+    .footer-whatsapp {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .footer-icons {
+        width: 5%;
+        height: 5%;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .container-footer {
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .popup-loc {
+        display: none;
+    }
+
+    .footer-logo {
+        width: 50%;
+        height: 30%;
+        margin-left: 0;
+    }
+
+    .footer-localizacao {
+        width: 100%;
+        padding-left: 0;
+        margin: 30px 0;
+        text-align: center;
+    }
+
+    .footer-contatos {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footer-titulo {
+        font-size: 1.3rem;
+        padding-bottom: 15px;
+    }
+
+    .footer-paragrafo {
+        font-size: 1.2rem;
+    }
+
+    .footer-whatsapp {
+        margin-bottom: 10px;
+    }
+
+    .footer-icons {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
     }
 }
