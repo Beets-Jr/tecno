@@ -39,6 +39,69 @@
     margin-bottom: 30px;
 }
 
+@media (min-width: 1101px) {
+
+    .ContatoText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icons {
+        margin-top: 5vh;
+        display: flex;
+        gap: 75px;
+    }
+
+    .background-img {
+        width: 175px;
+        height: 175px;
+        background-color: var(--cor-vermelha);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icons img{
+        width: 100px;
+        height: 100px;
+        background-color: var(--cor-vermelha);
+    }
+
+    form {
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    form input {
+        height: 3vh;
+        width: 25vw;
+        background-color: var(--cor-branca);
+    }
+
+    form textarea {
+        height: 3vh;
+        width: 25vw;
+        background-color: var(--cor-branca);
+    }
+
+    .button-enviar {
+        margin-top: 25px;
+        width: 10vw;
+        height: 35px;
+        background-color: var(--cor-vermelha);
+        /* font-size: ; */
+        font-family: var(--font-family-paragrafo);
+        font-weight: var(--font-weight-paragrafo-bold);
+        color: var(--cor-branca);
+    }
+
+}
+
 @media (max-width: 1100px) and (min-width: 801px) {
     .ContatoImg {
         width: 100%;

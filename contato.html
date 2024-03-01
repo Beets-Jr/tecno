@@ -27,11 +27,32 @@
         <!--Fim HOME2: Nav bar-->
     </header>
     <div class="ContatoContainer">
-        <div class="ContatoImg">
-            <img src="img/home/home_banner.png" alt="Contato">
-        </div>
-        <div class="ContatoText">
-            <h1 class="title">Contato</h1>
+        <div class="ContatoContainer">
+            <div class="ContatoImg">
+                <img src="img/home/home_banner.png" alt="Contato">
+            </div>
+            <div class="ContatoText">
+                <h1 class="title">Contato</h1>
+                <div class="icons">
+                    <div class="background-img">
+                        <img src="img/home/Icones/whatsapp.png" alt="Whatsapp">
+                    </div>
+                    <div class="background-img">
+                        <img src="img/home/Icones/instagram.png" alt="Instagram">
+                    </div>
+                </div>
+                <form>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" required>
+                    <label for="">E-mail:</label>
+                    <input type="email" name="email" required>
+                    <label for="">Telefone:</label>
+                    <input type="tel" name="telefone" required>
+                    <label for="nome">Mensagem:</label>
+                    <textarea class="contato-message" name="mensagem" required></textarea>
+                    <button type="submit" class="button-enviar">Enviar</button>
+                </form>
+            </div>
         </div>
     </div>
 
