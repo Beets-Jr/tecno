@@ -6,6 +6,7 @@
     width: 100vw;
     height: 99vh;
     background-color: var(--cor-preta);
+    padding-top: 50px;
 }
 
 .ContatoImg {
@@ -61,7 +62,7 @@
         margin-top: 30px;
     }
 
-    form {
+    .formulario {
         margin-top: 30px;
         display: flex;
         flex-direction: column;
@@ -72,7 +73,7 @@
         color: var(--cor-branca);
     }
 
-    form input {
+    .formulario input {
         height: 3vh;
         width: 25vw;
         background-color: var(--cor-branca);
@@ -81,7 +82,7 @@
         padding: 6px;
     }
 
-    form textarea {
+    .formulario textarea {
         height: 9vh;
         width: 25vw;
         background-color: var(--cor-branca);
@@ -149,7 +150,7 @@
         margin-top: 30px;
     }
 
-    form {
+    .formulario {
         margin-top: 30px;
         display: flex;
         flex-direction: column;
@@ -160,7 +161,7 @@
         color: var(--cor-branca);
     }
 
-    form input {
+    .formulario input {
         height: 3vh;
         width: 27vw;
         background-color: var(--cor-branca);
@@ -169,7 +170,7 @@
         padding: 6px;
     }
 
-    form textarea {
+    .formulario textarea {
         height: 9vh;
         width: 27vw;
         background-color: var(--cor-branca);
@@ -242,7 +243,7 @@
         margin-top: 30px;
     }
 
-    form {
+    .formulario {
         margin-top: 30px;
         display: flex;
         flex-direction: column;
@@ -253,7 +254,7 @@
         color: var(--cor-branca);
     }
 
-    form input {
+    .formulario input {
         height: 3vh;
         width: 300px;
         background-color: var(--cor-branca);
@@ -262,7 +263,7 @@
         padding: 6px;
     }
 
-    form textarea {
+    .formulario textarea {
         height: 9vh;
         width: 300px;
         background-color: var(--cor-branca);
@@ -297,6 +298,7 @@
     display: flex;
     align-items: flex-start;
     flex-direction: row;
+    margin-top: 50px;
 }
 
 .footer-logo {
