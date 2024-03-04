@@ -155,7 +155,7 @@ header {
     justify-content: space-evenly;
 }
 
-.navBarMenu a:hover{
+.navBarMenu a:hover, .ativo{
     color: var(--cor-branca) !important;
 }
 
