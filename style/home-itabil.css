@@ -2,6 +2,7 @@
 .itabilContainer {
   height: 100vh;
   display: flex;
+  flex-direction: row;
 }
 
 .itabilContainer img {
@@ -45,6 +46,12 @@
   background-color: var(--cor-vermelha);
   border: 0;
   cursor: pointer;
+}
+
+.itabilBackground .itabil-conteudo{
+  width: 50%;
+  height: 100%;
+  z-index: -1;
 }
 
 @media (max-width: 1400px) and (min-width: 800px) {
