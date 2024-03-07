@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tecno Diesel: Sistema de Injeção Diesel - Página de Produtos</title>
     <link rel="stylesheet" href="produtos.css">
+    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@900&display=swap');
@@ -17,7 +18,51 @@
 </head>
 
 <body>
-
+    <header>
+        <!--Início HOME1: Infos-->
+        <div class="infos-superiores">
+            <div class="infos-esq">
+                <a target="_blank" href="https://www.whatsapp.com/" class="whatsapp-btn"></a>
+                <div class="barra"></div>
+                <a target="_blank" href="https://www.instagram.com" class="instagram-btn"></a>
+            </div>
+            <form class="infos-centro">
+                <input type="text" class="pesquisa">
+                <button type="submit" class="pesquisa-btn"></button>
+            </form>
+            <div class="infos-dir">
+                <a target="_blank" href="#" class="profile-btn"></a>
+                <div class="barra"></div>
+                <a target="_blank" href="loja.html" class="carrinho-btn"></a>
+            </div>
+        </div>
+        <!--Fim HOME1: Infos-->
+    
+    
+        <!--Início HOME2: Nav bar-->
+        <div class="navBar">
+            <div class="navBarLogo">
+                <img src="./img/home/Icones/logo_menu.png" alt="Logo Tecno Diesel">
+            </div>
+    
+            <nav id="navBarOp">
+                <button id="navBtnMob" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                    <span id="navBarHamburger"></span>
+                </button>
+                <ul class="navBarMenu">
+                    <li><a class="navBarHome" href="index.html">HOME</a></li>
+                    <li><a class="navBarProdutos" href="produtos.html">PRODUTOS</a></li>
+                    <li><a class="navBarServicos" href="servicos.html">SERVIÇOS</a></li>
+                    <li><a class="navBarItabil" href="itabil.html">A EMPRESA</a></li>
+                    <li><a class="navBarLocalizacao" href="localizacao.html">LOCALIZAÇÃO</a></li>
+                    <li><a class="navBarContato ativo" href="">CONTATO</a></li>
+                    <li><a class="navBarLoja" href="loja.html">LOJA</a></li>
+                </ul>
+            </nav>
+        </div>
+        <script src="./script.js"></script>
+    <!--Fim HOME2: Nav bar-->
+    </header>
 
     <section class="PRODUTOS1">
         <div class="text-produtos">
