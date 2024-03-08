@@ -1,12 +1,16 @@
-.itabilContainer {
+.itabilPrincipal {
     width: 100vw;
     height: 100vh;
-    display: flex;
+    display: block;
+    text-transform: uppercase;
+    background-image: url("img/home/servico_01.png");
 }
 
 .itabilContainerTxt {
     display: flex;
     flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     justify-content: center;
     height: 70vh;
@@ -16,9 +20,11 @@
 }
 
 .itabilTitulo {
+    transform: translate(0, 50%);
     background-color: var(--cor-vermelha-escura);
     clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
-    margin-bottom: 15vh;
+    margin-left: auto;
+    margin-right: auto;
     height: 15vh;
     width: 35vw;
     display: flex;
@@ -26,11 +32,12 @@
     align-items: center;
 }
 
-.itabilContainerTxt h1 {
-    color: var(--cor-preta);
+.itabilTitulo p {
+    color: var(--cor-branca);
     font-family: var(--font-family-titulo-secao);
     font-weight: var(--font-weight-titulo-secao);
     font-size: 50px;
+    text-shadow: black 3px 3px 3px;
 }
 
 .itabilContainerTxt p {
