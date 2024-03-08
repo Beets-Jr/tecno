@@ -1,5 +1,4 @@
 header {
-    position: fixed;
     width: 100%;
     background-color: black;
 }
@@ -316,13 +315,6 @@ header {
     height: 100vh;
     display: flex;
 }
-.itabilContainer img{
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    filter: gray; 
-    width: 100vh;
-    max-height: 100%;
-}
 .itabilContainerTxt {
     display: flex;
     flex-direction: column;
@@ -341,20 +333,6 @@ header {
     font-weight: var(--font-weight-paragrafo-regular);
     font-size: 20px;
     max-width: 60vw;
-}
-.itabilBtn{
-    background-color: var(--cor-laranja);
-    color: var(--cor-branca);
-    font-family: var(--font-family-titulo-secao);
-    font-weight: var(--font-weight-titulo-secao);
-    font-size: 30px;
-    border: none;
-    width: 250px;
-    height: 50px;
-    user-select: none;
-}
-.itabilBtn:hover{
-    cursor: pointer;
 }
 
 @media (max-width: 900px) {
