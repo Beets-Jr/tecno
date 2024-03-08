@@ -3,6 +3,7 @@
     height: 100vh;
     display: flex;
 }
+
 .itabilContainerTxt {
     display: flex;
     flex-direction: column;
@@ -13,12 +14,25 @@
     background-color: var(--cor-preta);
     gap: 5vh;
 }
+
+.itabilTitulo {
+    background-color: var(--cor-vermelha-escura);
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+    margin-bottom: 15vh;
+    height: 15vh;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .itabilContainerTxt h1 {
     color: var(--cor-preta);
     font-family: var(--font-family-titulo-secao);
     font-weight: var(--font-weight-titulo-secao);
     font-size: 50px;
 }
+
 .itabilContainerTxt p {
     color: var(--cor-branca);
     font-family: var(--font-family-paragrafo);
