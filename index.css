@@ -318,8 +318,12 @@ header {
 .itabilContainerTxt {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 70vh;
+    width: 50vw;
+    background-color: var(--cor-preta);
     gap: 5vh;
-    margin: 7vh 5vw 5vh 2.5vw;
 }
 .itabilContainerTxt h1 {
     color: var(--cor-preta);
@@ -328,7 +332,7 @@ header {
     font-size: 50px;
 }
 .itabilContainerTxt p {
-    color: var(--cor-preta);
+    color: var(--cor-branca);
     font-family: var(--font-family-paragrafo);
     font-weight: var(--font-weight-paragrafo-regular);
     font-size: 20px;
