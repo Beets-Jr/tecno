@@ -3,7 +3,8 @@
     height: 100vh;
     display: block;
     text-transform: uppercase;
-    background-image: url("img/home/servico_01.png");
+    background-image: url(../img/home/itabil01.png);
+    background-size: cover;
 }
 
 .itabilContainerTxt {
@@ -17,6 +18,7 @@
     width: 50vw;
     background-color: var(--cor-preta);
     gap: 5vh;
+    padding: 3%;
 }
 
 .itabilTitulo {
