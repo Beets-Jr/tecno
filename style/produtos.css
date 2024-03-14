@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   padding-top: 100px;
-  background: url(img/home/servico_01.png);
+  background: url(../img/home/servico_01.png);
   background-size: cover;
 }
 
@@ -57,7 +57,7 @@
 }
 
 .PRODUTOS2 {
-  background: url(img/home/servico_02.png);
+  background: url(../img/home/servico_02.png);
   background-size: cover;
   width: 100vw;
   height: auto;
