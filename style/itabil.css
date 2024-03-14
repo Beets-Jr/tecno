@@ -1,0 +1,119 @@
+.itabilPrincipal {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  text-transform: uppercase;
+  background-image: url(../img/home/itabil01.png);
+  background-size: cover;
+}
+
+.itabilContainerTxt {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+  height: 70vh;
+  width: 50vw;
+  background-color: var(--cor-preta);
+  gap: 5vh;
+  padding: 3%;
+}
+
+.itabilTitulo {
+  transform: translate(0, 50%);
+  background-color: var(--cor-vermelha-escura);
+  clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+  margin-left: auto;
+  margin-right: auto;
+  height: 15vh;
+  width: 35vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itabilTitulo p {
+  color: var(--cor-branca);
+  font-family: var(--font-family-titulo-secao);
+  font-weight: var(--font-weight-titulo-secao);
+  font-size: 50px;
+  text-shadow: black 3px 3px 3px;
+}
+
+.itabilContainerTxt p {
+  color: var(--cor-branca);
+  font-family: var(--font-family-paragrafo);
+  font-weight: var(--font-weight-paragrafo-regular);
+  font-size: 20px;
+  max-width: 60vw;
+}
+
+.quadroFerramentas {
+  width: 100vw;
+  height: 150vh;
+  display: block;
+  text-transform: uppercase;
+  background-image: url(../img/home/itabil02.png);
+  background-size: cover;
+}
+
+.tituloContainer {
+  transform: translate(0, 50%);
+  background-color: var(--cor-preta);
+  clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+  margin-left: auto;
+  margin-right: auto;
+  height: 13vh;
+  width: 35vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tituloContainer p {
+  color: var(--cor-branca);
+  font-family: var(--font-family-titulo-secao);
+  font-weight: var(--font-weight-titulo-secao);
+  font-size: 18px;
+  text-shadow: black 3px 3px 3px;
+  text-align: center;
+}
+
+.ferramentasContainerTxt {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  height: 130vh;
+  width: 50vw;
+  background-color: var(--cor-vermelha-escura);
+  gap: 5vh;
+  padding: 3%;
+}
+
+.column1 {
+  width: 50%;
+  margin-top: 10%;
+  margin-left: 0%;
+}
+
+.column2 {
+  width: 50%;
+  margin-top: -105%;
+  margin-left: 50%;
+}
+
+.ferramenta {
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 55%;
+}
+
+.ferramentasContainerTxt img {
+  float: left;
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+}
