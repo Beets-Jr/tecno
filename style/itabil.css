@@ -50,9 +50,11 @@
   max-width: 60vw;
 }
 
+/*quadro de ferramentas - visite a loja e conheça os produtos*/
+
 .quadroFerramentas {
   width: 100vw;
-  height: 150vh;
+  height: 160vh;
   display: block;
   text-transform: uppercase;
   background-image: url(../img/home/itabil02.png);
@@ -83,37 +85,191 @@
 
 .ferramentasContainerTxt {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
-  height: 130vh;
-  width: 50vw;
+  height: 140vh;
+  width: 65vw;
   background-color: var(--cor-vermelha-escura);
   gap: 5vh;
-  padding: 3%;
+  padding-top: 5%;
+  padding-inline: 2%;
 }
 
-.column1 {
-  width: 50%;
-  margin-top: 10%;
-  margin-left: 0%;
+.coluna1 {
+  display: flex;
+  flex-direction: column;
+  max-width: 45%;
+  margin-top: 10px;
 }
 
-.column2 {
-  width: 50%;
-  margin-top: -105%;
+.coluna2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 45%;
   margin-left: 50%;
+  margin-top: -75%;
 }
 
-.ferramenta {
+.ferramenta p {
   text-align: center;
   justify-content: center;
-  margin-bottom: 55%;
+  margin-bottom: 45%;
+  position: static;
 }
 
-.ferramentasContainerTxt img {
+.ferramentasContainerTxt p {
+  font-size: 16px;
+  margin-left: 0px;
+}
+
+#img1 {
+  float: left;
+  margin-top: -30px;
+  margin-right: 10px;
+  max-width: 30%;
+}
+#img2 {
+  float: left;
+  margin-top: -40px;
+  margin-right: 10px;
+  max-width: 40%;
+}
+#img3 {
   float: left;
   margin-right: 10px;
-  width: 100px;
-  height: 100px;
+  margin-top: -20px;
+  max-width: 40%;
+}
+#img4 {
+  float: left;
+  margin-right: 10px;
+  margin-top: -40px;
+  max-width: 40%;
+}
+#img5 {
+  float: left;
+  margin-right: 10px;
+  margin-top: -30px;
+  max-width: 40%;
+}
+#img6 {
+  float: left;
+  margin-right: 10px;
+  margin-top: -30px;
+  max-width: 40%;
+}
+
+@media only screen and (max-width: 700px) {
+  .itabilPrincipal {
+    height: 92vh;
+  }
+
+  .itabilContainerTxt {
+    width: 65vw;
+  }
+  .itabilTitulo p {
+    font-size: 30px;
+  }
+
+  .itabilContainerTxt p {
+    font-size: 13px;
+    max-width: 65vw;
+  }
+
+  .quadroFerramentas {
+    height: 160vh;
+    background-image: none;
+    background-color: var(--cor-vermelha-escura);
+  }
+
+  .tituloContainer {
+    width: 50vw;
+  }
+
+  .tituloContainer p {
+    font-size: 12px;
+  }
+
+  .ferramentasContainerTxt {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .coluna1 {
+    margin-left: 5px;
+  }
+
+  .coluna2 {
+    margin-top: -95vh;
+  }
+
+  .ferramenta p {
+    margin-bottom: 70%;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .ferramentasContainerTxt p {
+    font-size: 11px;
+    margin-top: 40px;
+  }
+
+  #img1 {
+    position: relative;
+    top: 28px;
+  }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1300px) {
+  .itabilContainerTxt {
+    width: 65vw;
+  }
+  .itabilTitulo p {
+    font-size: 40px;
+  }
+
+  .itabilContainerTxt p {
+    font-size: 14px;
+    max-width: 65vw;
+  }
+
+  .quadroFerramentas {
+    height: 160vh;
+    background-image: none;
+    background-color: var(--cor-vermelha-escura);
+  }
+
+  .tituloContainer {
+    width: 50vw;
+  }
+
+  .tituloContainer p {
+    font-size: 15px;
+  }
+
+  .ferramentasContainerTxt {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .coluna1 {
+    margin-left: 10px;
+  }
+
+  .coluna2 {
+    margin-top: -105vh;
+  }
+
+  .ferramenta p {
+    margin-bottom: 40%;
+  }
+
+  .ferramentasContainerTxt p {
+    font-size: 14px;
+    margin-top: 40px;
+  }
 }
