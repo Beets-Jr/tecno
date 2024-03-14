@@ -28,7 +28,7 @@
 }
 
 .ContatoText p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: var(--font-weight-paragrafo-regular);
 }
 
@@ -48,18 +48,23 @@
         align-items: center;
     }
 
+    .social-media {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
     .icons {
         display: flex;
-        gap: 75px;
+        align-items: center;
+        gap: 30px;
     }
 
-    .icons img{
+    .icons img {
         width: 35px;
         height: 35px;
-    }
-
-    .numero-telefone {
-        margin-top: 30px;
+        margin-top: 10px;
     }
 
     .formulario {
@@ -136,19 +141,23 @@
         align-items: center;
     }
 
-    .icons {
+    .social-media {
         display: flex;
-        gap: 75px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
     }
 
-    .icons img{
+    .icons {
+        display: flex;
+        gap: 20px;
+    }
+
+    .icons img {
         width: 35px;
         height: 35px;
     }
 
-    .numero-telefone {
-        margin-top: 30px;
-    }
 
     .formulario {
         margin-top: 30px;
@@ -229,18 +238,22 @@
         align-items: center;
     }
 
+    .social-media {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+
     .icons {
         display: flex;
-        gap: 75px;
+        gap: 20px;
     }
 
-    .icons img{
-        width: 35px;
-        height: 35px;
-    }
-
-    .numero-telefone {
-        margin-top: 30px;
+    .icons img {
+        width: 20px;
+        height: 20px;
     }
 
     .formulario {
@@ -321,6 +334,7 @@
     color: var(--cor-preta);
     font-family: var(--font-family-titulo-secao);
     font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 
 .footer-paragrafo {
@@ -338,7 +352,7 @@
 }
 
 .footer-contatos {
-    width: 25%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -366,7 +380,7 @@
 @media (max-width: 1400px) and (min-width: 800px) {
 
     .container-footer {
-        align-items: center;
+        margin-top: 20px;
         justify-content: space-between;
     }
 
@@ -375,14 +389,19 @@
     }
 
     .footer-logo {
-        width: 30%;
+        width: 20%;
         margin-left: 0;
     }
 
     .footer-localizacao {
-        width: 30%;
-        padding-left: auto;
+        width: 25%;
         min-width: 300px;
+    }
+
+
+    .footer-contatos {
+        width: 25%;
+        min-width: 280px;
     }
 
     .footer-paragrafo {
