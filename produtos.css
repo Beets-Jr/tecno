@@ -1,6 +1,6 @@
 .PRODUTOS1 {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,6 +47,52 @@
   align-items: center;
 }
 
+.logo-produtos1-grupo1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 7px;
+  flex-wrap: wrap;
+}
+
+.PRODUTOS2 {
+  background: url(img/home/servico_02.png);
+  background-size: cover;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-produtos2 div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 3vh;
+  gap: 1vh;
+}
+
+.logo-produtos1-grupo1 img, .logo-produtos2 img {
+  width: 17vw;
+  height: 17vh;
+  margin: 10px;
+  object-fit: contain;
+}
+
+.logo-tecno {
+  background-color: var(--cor-branca);
+  clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+  height: auto;
+  width: 35vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .text-produtos {
   color: var(--cor-branca);
   font-family: var(--font-family-paragrafo);
@@ -66,6 +112,14 @@
     font-size: 18px;
   }
 
+  .prod-title-card {
+    transform: translate(0, 10px);
+  }
+  .logo-produtos1-grupo1 img, .logo-produtos2 img {
+    width: auto;
+    height: 15vh;
+    margin: 10px;
+  }
 }
 
 @media (max-width: 800px) and (min-width: 531px) {
@@ -79,13 +133,17 @@
   }
 
   .prod-text-card {
-    height: 40vh;
+    height: 60vh;
   }
 
   .text-produtos {
     font-size: 16px;
   }
 
+  .logo-produtos1-grupo1 img, .logo-produtos2 img {
+    width: auto;
+    height: 12vh;
+  }
 }
 
 @media (max-width: 530px) {
@@ -109,8 +167,20 @@
     width: 70%;
   }
 
+  .logo-produtos1-grupo1 img, .logo-produtos2 img {
+    width: auto;
+    height: 7.5vh;
+    margin: 10px;
+  }
 }
 
+@media (max-width: 380px) {
+  .logo-produtos1-grupo1 img, .logo-produtos2 img {
+    width: auto;
+    height: 6.5vh;
+    margin: 10px;
+  }
+}
 
 .container-footer {
   width: 100%;
