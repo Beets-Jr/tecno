@@ -5,7 +5,7 @@
         width: 100vw;
         padding-top: 10vh;
         padding-bottom: 10vh;
-        background-image: url(../img/home/servico_01.png);
+        background-image: url(../img/home/itabil01.png);
         background-size: cover;
         display: flex;
         flex-direction: column;
@@ -16,7 +16,7 @@
         height: 100vh;
         width: 100vw;
         padding-bottom: 10vh;
-        background-image: url(../img/home/servico_02.png);
+        background-image: url(../img/home/itabil02.png);
         background-size: cover;
         display: flex;
         flex-direction: column;
@@ -303,6 +303,3 @@
 
 }
 
-.container{
-    padding-top: 70px;
-}
