@@ -43,7 +43,9 @@
     text-decoration: none;
     color: var(--cor-branca);
 }
-
+#telefone {
+    filter: invert(100%);
+}
 
 
 @media (min-width: 1101px) {
