@@ -74,7 +74,7 @@ header {
     margin: 0 1%;
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1200px) {
     .infos-superiores {
         padding: 5px 0 5px;
     }
