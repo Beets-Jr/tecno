@@ -346,7 +346,7 @@
     margin-right: 10px;
   }
 
-  .PRODUTOS1{
+  .PRODUTOS1, .PRODUTOS2{
     background: none;
     background-color: var(--cor-preta);
   }
