@@ -161,6 +161,7 @@
   max-width: 40%;
 }
 
+/*mobile*/
 @media only screen and (max-width: 700px) {
   .itabilPrincipal {
     height: 92vh;
@@ -179,7 +180,7 @@
   }
 
   .quadroFerramentas {
-    height: 160vh;
+    height: 285vh;
     background-image: none;
     background-color: var(--cor-vermelha-escura);
   }
@@ -195,32 +196,33 @@
   .ferramentasContainerTxt {
     height: 100vh;
     width: 100vw;
-  }
-
-  .coluna1 {
-    margin-left: 5px;
-  }
-
-  .coluna2 {
-    margin-top: -95vh;
+    display: inline-block;
+    align-items: center;
   }
 
   .ferramenta p {
-    margin-bottom: 70%;
-    position: relative;
-    top: 20px;
-    text-align: center;
-    justify-content: center;
+    font-size: 12px;
+    float: inline-end;
+    margin-top: 10px;
   }
 
-  .ferramentasContainerTxt p {
-    font-size: 11px;
-    margin-top: 40px;
+  .ferramenta img {
+    position: relative;
+    width: 50%;
+    left: 25%;
   }
 
-  #img1 {
+  .coluna1 {
     position: relative;
-    top: 28px;
+    top: 10%;
+    right: -25%;
+    margin-bottom: 10%;
+  }
+  .coluna2 {
+    position: relative;
+    top: 80%;
+    left: -25%;
+    margin-bottom: 100%;
   }
 }
 
@@ -257,19 +259,22 @@
   }
 
   .coluna1 {
-    margin-left: 10px;
+    display: inline-block;
+    width: 100vw;
   }
-
   .coluna2 {
-    margin-top: -105vh;
+    display: inline-block;
+    width: 100vw;
+    margin-top: -70%;
   }
 
   .ferramenta p {
     margin-bottom: 40%;
-  }
-
-  .ferramentasContainerTxt p {
     font-size: 14px;
     margin-top: 40px;
+  }
+
+  .ferramenta img {
+    width: 100px;
   }
 }
