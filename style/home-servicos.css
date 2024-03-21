@@ -60,28 +60,34 @@
   font-weight: var(--font-weight-paragrafo-regular);
   font-size: 1.5rem;
   margin-top: 1vh;
+  padding-bottom: 1em;
+  width: 100%;
+  position: relative;
 }
 
 
 .mouse-hover-text {
-  color: var(--cor-preta);
-  font-family: var(--font-family-paragrafo);
+  color: var(--cor-branca);
+  font-family: var(--font-family-titulo-secao);
   display: none; 
   position: absolute; 
   width: 100%;
   top: calc(84%);
   left: 50%; 
   transform: translateX(-50%); 
-  background-color: white;
+  background-color: var(--cor-vermelha-escura);
   padding: 1.5vh 1.5vh 1.5vh 0;
-  border: 1px solid var(--cor-branca);
-  border-radius: 8px; 
   z-index: 1;
   text-align: left;
 }
 
-.ler-mais:hover + .mouse-hover-text, .mouse-hover-text:hover {
-  display: block; /* Exibe o texto quando o mouse passa sobre a carta */
+.ler-mais:hover + .mouse-hover-text,
+.card-text:hover .mouse-hover-text {
+  display: block;
+}
+
+.mouse-hover-text {
+  display: none;
 }
 
 .mouse-hover-text ul {
@@ -93,12 +99,8 @@
   margin-top: 0.4vh; 
 }
 
-.mouse-hover-text ul ul li {
-  font-size: 0.85em; 
-}
-
 .mouse-hover-text ul li::before {
-  content: "•";
+  content: "-";
   display: inline-block; 
   width: 0.75em; 
   text-align: center; 
