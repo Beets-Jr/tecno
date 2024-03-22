@@ -21,6 +21,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  position: relative;
 }
 
 .card-servicos .img {
@@ -59,7 +60,53 @@
   font-weight: var(--font-weight-paragrafo-regular);
   font-size: 1.5rem;
   margin-top: 1vh;
+  padding-bottom: 1em;
+  width: 100%;
+  position: relative;
 }
+
+
+.mouse-hover-text {
+  color: var(--cor-branca);
+  font-family: var(--font-family-titulo-secao);
+  display: none; 
+  position: absolute; 
+  width: 100%;
+  top: calc(84%);
+  left: 50%; 
+  transform: translateX(-50%); 
+  background-color: var(--cor-vermelha-escura);
+  padding: 1.5vh 1.5vh 1.5vh 0;
+  z-index: 1;
+  text-align: left;
+}
+
+.ler-mais:hover + .mouse-hover-text,
+.card-text:hover .mouse-hover-text {
+  display: block;
+}
+
+.mouse-hover-text {
+  display: none;
+}
+
+.mouse-hover-text ul {
+  list-style-type: none;
+  padding-left: 1.7vh; 
+}
+
+.mouse-hover-text ul ul {
+  margin-top: 0.4vh; 
+}
+
+.mouse-hover-text ul li::before {
+  content: "-";
+  display: inline-block; 
+  width: 0.75em; 
+  text-align: center; 
+  margin-right: 0.3em; 
+}
+
 
 @media (max-width: 1400px) and (min-width: 800px) {
   .card-servicos {
