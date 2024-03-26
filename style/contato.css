@@ -26,6 +26,10 @@
     height: 100%;
 }
 
+.forms{
+    font-family: var(--font-family-paragrafo);
+}
+
 .ContatoText p {
     font-size: 1.5rem;
     font-weight: var(--font-weight-paragrafo-regular);
